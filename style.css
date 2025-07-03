@@ -1,0 +1,143 @@
+header{
+    width: 100%;
+    height: 100vh;
+    background: white;
+
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background:wheat;
+    align-items: center;
+}
+.start{
+    font-size: 2em;
+    letter-spacing: 2px;
+
+}
+.menu a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: black;
+    transition: 0.4s;
+    
+}
+.menu a:hover{
+    font-size: 30px;
+    color: blue;
+}
+
+section{
+    padding: 100px;
+}
+h1{
+    font-size: 3em;
+   
+}
+h1 span{
+    color: rgb(9, 9, 181);
+}
+section a{
+    text-decoration: none;
+    background: blue;
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+section a:hover{
+    background: transparent;
+    border: 1px solid blue;
+}
+.big{
+    position: absolute;
+    top: 200px;
+    left:50%;
+    border-radius: 50%;
+   
+}
+
+.first{
+   position:absolute;
+   left: 50%;
+   color: rgb(32, 32, 147);
+   text-decoration-line: underline ;
+   
+}
+.one{
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+ .bio{
+    
+    font-size: 20px;
+}
+.second{
+   position:absolute;
+   left: 50%;
+   color: rgb(32, 32, 147);
+   text-decoration-line: underline ;
+   
+}
+.two{
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.skill{
+    font-size: 20px;
+}
+ul li{
+    font-size: 20px;
+}
+input{
+    height: 40px;
+    width: 250px;
+    border-radius: 8%;
+}
+.three{
+    position: absolute;
+    left: 35%;
+}
+.third{
+   position:absolute;
+   left: 50%;
+   color: rgb(32, 32, 147);
+   text-decoration-line: underline ;
+}
+.four{
+    width: 100%;
+    height: 200px;
+    background: rgb(47, 4, 47);
+    position: absolute;
+    top: 2500px;
+}
+.fourth{
+    position:absolute;
+   left: 50%;
+   color: white;
+   opacity: 0.5;
+  
+}
+.social_media i{
+    font-size: 20px;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+    left: 45%;
+    color: white;
+    opacity: 0.5;
+    transition: 0.4s ease-in;
+}
+.social_media i:hover{
+    font-size: 25px;
+    opacity: 1;
+}
